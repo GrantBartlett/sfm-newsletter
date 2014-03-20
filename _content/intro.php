@@ -7,7 +7,7 @@
 
                         <table class="twelve columns">
                             <tr>
-                                <td class="panel welcome" style="background: #ffffff;">
+                                <td class="panel welcome" style="background: #ffffff;border: 1px solid #FFF0F0;">
 
 
                                     <p style="border-left: 10px solid #F3E5DE;margin-left: 15px;font-size: 19px;padding: 25px;">
