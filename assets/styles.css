@@ -1,0 +1,401 @@
+/* =========================================== */
+/* GLOBAL */
+/* CSS for the sidebar starts here */
+/* =========================================== */
+
+
+a:hover {
+    color: #F45147 !important;
+}
+
+a:active {
+    color: #F45147 !important;
+}
+
+a:visited {
+    color: #F45147 !important;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #F45147;
+}
+
+h1 a:active,
+h2 a:active,
+h3 a:active,
+h4 a:active,
+h5 a:active,
+h6 a:active {
+    color: #F45147 !important;
+}
+
+h1 a:visited,
+h2 a:visited,
+h3 a:visited,
+h4 a:visited,
+h5 a:visited,
+h6 a:visited {
+    color: #F45147 !important;
+}
+
+
+
+table.facebook td {
+    background: #3b5998;
+    border-color: #2d4473;
+}
+table.facebook:hover td {
+    background: #2d4473 !important;
+}
+table.twitter td {
+    background: #00acee;
+    border-color: #0087bb;
+}
+table.twitter:hover td {
+    background: #0087bb !important;
+}
+table.google-plus td {
+    background-color: #DB4A39;
+    border-color: #CC0000;
+}
+table.google-plus:hover td {
+    background: #CC0000 !important;
+}
+.template-label {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.callout .panel {
+    background: #ECF8FF;
+    border-color: #b9e5ff;
+}
+.header {
+    background: #999999;
+}
+.footer .wrapper {
+    background: #ebebeb;
+}
+.footer h5 {
+    padding-bottom: 10px;
+}
+table.columns .text-pad {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table.columns .left-text-pad {
+    padding-left: 10px;
+}
+table.columns .right-text-pad {
+    padding-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+    table[class="body"] .right-text-pad {
+        padding-left: 10px !important;
+    }
+    table[class="body"] .left-text-pad {
+        padding-right: 10px !important;
+    }
+}
+.logo {
+    font-size: 42px;
+    color: #353535;
+}
+.sub {
+    font-size:12px;
+}
+.panel-white {
+    background:#fff;
+    padding:5px;
+}
+.sidebar .panel p a {
+    color: #B3615C!important;
+}
+.sidebar h1 a{
+    color: #3C2020!important;
+}
+.panel p a{
+    color:#F45147;
+}
+.box-heading {
+    background: url(/images/header-trending.png);
+    color: #FFF;
+    margin: 0 auto -94px!important;
+    position: relative;
+    top: -50px;
+    text-indent: -9999px;
+    width: 94px;
+    height: 94px;
+    padding: 0;
+    border: 0;
+}
+ul, li {
+    list-style:none !important;
+    padding: 0 0 0 12px;
+}
+
+.welcome {
+    background: #ffffff;
+}
+.welcome p{
+    font-style: italic;
+    font-size: 18px;
+    padding: 20px 20px 0;
+    line-height: 1.8;
+}
+.welcome a {
+    color: #A78675!important;
+}
+.welcome h1 {
+    font-style: italic;
+    font-size: 29px;
+    line-height: 0.7;
+    padding: 15px;
+    text-align: center;
+}
+
+.weekly {
+    background: #FFFCFA!important;
+    border: 1px solid #FAE7D9!important;
+}
+
+.best {
+    background: #FFEDED!important;
+    border: 1px solid #FCD2D2!important;
+}
+.best h6 {
+    color: #C55A5A;
+    text-align: center;
+    font-size: 26px;
+    border-bottom: 3px dashed #F3CBCB;
+    padding: 10px 0 20px;
+    font-style: italic;
+}
+.best ul li {
+    font-size: 14px;
+    list-style-type: square!important;
+    list-style-position: inside!important;
+    color: #F8A7A7;
+    padding: 15px;
+}
+
+
+/* =========================================== */
+/* Nav */
+/* CSS for the demo starts here */
+/* Styling for the horizontal state */
+/* =========================================== */
+
+.nav {
+    margin: 0 auto!important;
+}
+
+.nav {
+    margin:20px 0 0 0;
+    padding:10px 0;
+    font:1em/2 Georgia, "Times New Roman", Times, SERIF;
+    list-style-type: none!important;
+}
+.nav li a {
+    color: #F45147!important;
+    list-style-type: none!important;
+}
+.nav li {
+    float:left;
+    margin:0;
+    padding:0;
+    border-right: 1px solid #eee;
+    list-style-type: none!important;
+    padding-left:0;
+}
+.nav li:last-child {
+    border-right: none;
+}
+.nav a, unsubscribe, forwardtoafriend, preferences,webversion {
+    display:block;
+    padding:0 12px;
+    color:#999;
+    text-decoration:none;
+}
+span.mobile-nav-play {
+    display: none;
+}
+table.contenttable { border: 10px solid #ddd; }
+
+
+
+
+/* =========================================== */
+/* Competitions */
+/* CSS for the comps starts here */
+/* =========================================== */
+
+.comp h6 {
+    font-size: 15px;
+    color: #A77756;
+    text-align: center;
+    padding: 15px 0 5px;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+}
+.comp h6 a {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0 5px;
+    text-transform: uppercase;
+}
+.comp p {
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0;
+    padding: 0px 18px 25px;
+    line-height: 1.8;
+}
+
+.feature-article h6 {
+    display: block;
+    padding: 30px;
+    background: #F45147;
+    text-align: center;
+    color: #FFF9F9;
+    font-size: 25px;
+    font-style: italic;
+}
+.feature-article h6 a {
+    color: #fff!important;
+    text-decoration: underline;
+}
+.feature-article h6 a:hover{
+    color: #fff!important;
+}
+.feature-article img {
+    width: 400px;"
+}
+.feature-article p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #524F4F;
+    padding: 10px 10px 5px
+}
+.feature-picture h6 {
+    display: block;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* =========================================== */
+/* Competitions */
+/* CSS for the featured comps starts here */
+/* =========================================== */
+
+.comp p {
+    font-size: 17px;
+    line-height: 1.9;
+    color: #424242;
+    padding: 0 25px;
+    text-align: center;
+}
+
+
+/* =========================================== */
+/* Sidebar */
+/* CSS for the sidebar starts here */
+/* =========================================== */
+
+.sidebar {
+    font-size: 0.9em;
+    background: #FDF9F7;
+    border: 1px solid #F3E5DE;
+}
+.sidebar forwardtoafriend {
+    color: #B3615C!important;
+    padding: 0;
+}
+/*
+.sidebar h1 {
+    font-size: 1.25em;
+    color: #B3615C!important;
+    margin: 0 0 10px;
+    border-bottom: 1px solid;
+    padding: 5px 0;
+    text-align: center;
+}*/
+.sidebar h1 {
+    padding: 25px 0;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    margin: 0 0 10px;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+.sidebar p {
+    font-size: 16px;
+    line-height: 1.7;
+    font-style: italic;
+    text-align: center;
+    padding: 0 4px;
+}
+.sidebar a {
+    color: #B3615C!important;
+}
+
+
+/* =========================================== */
+/* Monochrome Feature */
+/* CSS for the sidebar monochrome starts here  */
+/* =========================================== */
+
+.monochrome {
+    background: #292929;
+}
+.monochrome {
+    font-size: 0.9em;
+    background: #292929;
+    border: 1px solid #F3E5DE;
+}
+.monochrome forwardtoafriend {
+    color: #B6B0B0!important;
+    padding: 0;
+}
+.monochrome h1 {
+    padding: 25px 0;
+    text-transform: uppercase;
+
+    font-size: 1.25em;
+    color: #E2E2E2!important;
+    margin: 0 0 10px;
+    border-bottom: 1px solid;
+    text-align: center;
+
+}
+.monochrome p.monochrome {
+    font-size: 26px;
+}
+.monochrome p {
+    color: #D1D1D1;
+    font-size: 16px;
+    line-height: 1.7;
+    font-style: italic;
+    text-align: center;
+    padding: 15px 0;
+}
+.monochrome a {
+    color: #B6B0B0!important;
+}
+
+.monochrome h2 {
+    font-size: 22px;
+    color: #D1D1D1;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
