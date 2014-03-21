@@ -2,7 +2,7 @@
     $data = array(
         "articles" => array(
             array(
-                "title" => "I Love Superdry",
+                "title" => "Superdry Giveaway",
                 "excerpt" => "We still have a few Superdry t-shirts up for grabs. Enter now for a chance to win before they’re all gone! ",
                 //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
                 "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
@@ -10,11 +10,11 @@
                 "category" => "Competition"
             ),
             array(
-                "title" => "I Love Superdry",
-                "excerpt" => "We still have a few Superdry t-shirts up for grabs. Enter now for a chance to win before they’re all gone! ",
+                "title" => "Fabulous Make-up Kit from Flormar",
+                "excerpt" => "Freshen up your look and make-up kit this Spring with a fabulous make-up kit from Flormar ",
                 //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
                 "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
-                "image" => "/images/superdrycomp.png",
+                "image" => "/images/comp_flormar.png",
                 "category" => "Competition"
             )
         )
@@ -49,7 +49,7 @@
                                 <td class="weekly feature-article">
                                     <?php if($v['image']):?>
                                         <div style="clear:both;"><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
-                                            <img editable src="<?= $v['image']; ?>" style="width: 400px;" width="400" alt="<?= $v['title']; ?>"></a>
+                                            <img editable src="<?= $v['image']; ?>" style="width: 278px;" width="278" alt="<?= $v['title']; ?>" class="center"></a>
                                         </div>
                                     <?php endif; ?>
 

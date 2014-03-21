@@ -27,8 +27,8 @@
                 "type" => "monochrome"
             ),
             array(
-                "title" => "Follow Us",
-                "excerpt" => "For even more fashion satisfaction, join us on $facebook, $instagram, $pinterest &amp; $twitter. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too!",
+                "title" => "Join Us",
+                "excerpt" => "For even more fashion satisfaction, join us on $facebook, $twitter, $instagram &amp; $pinterest. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too!",
                 "type" => "sidebar"
             )
         )
@@ -53,7 +53,9 @@
                                         <?php if($v['image']):?>
                                         <div style="clear:both;">
                                             <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
-                                                <img editable src="<?= $v['image']; ?>" width="400" alt="<?= $v['title']; ?>">
+                                                <center>
+                                                    <img editable src="<?= $v['image']; ?>" width="400" alt="<?= $v['title']; ?>" class="center">
+                                                </center>
                                             </a>
                                         </div>
                                         <?php endif; ?>

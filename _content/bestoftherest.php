@@ -1,5 +1,5 @@
 <!-- content start -->
-<table class="row">
+<table class="container">
     <tr>
         <td class="wrapper last">
 
