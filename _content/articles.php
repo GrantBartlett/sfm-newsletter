@@ -115,8 +115,8 @@
                                         <?php endif; ?>
 
                                         <?php if ($v['feature']) :?>
-                                            <h2 style="color: #F0F0F0!important;">
-                                                <a href="<?= $v['url']; ?>" title="<? $v['title'];?>" target="_blank" style="color: #F0F0F0!important;">
+                                            <h2 style="color: #F5F5F5!important;">
+                                                <a href="<?= $v['url']; ?>" title="<? $v['title'];?>" target="_blank" style="color: #F5F5F5!important;">
                                                     <?= $v['feature'];?>
                                                 </a>
                                             </h2>

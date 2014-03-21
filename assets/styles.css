@@ -359,7 +359,7 @@ table.contenttable { border: 10px solid #ddd; }
 }
 .monochrome h1 {
     font-size: 18px;
-    color: #FCEFEF!important;
+    color: #F5F5F5!important;
     text-align: center;
 }
 .monochrome p.monochrome {
@@ -378,7 +378,7 @@ table.contenttable { border: 10px solid #ddd; }
 
 .monochrome h2 {
     font-size: 20px;
-    color: #F45147;
+    color: #F5F5F5!important;
     line-height: 1.5;
     font-style: italic;
     text-align: center;
@@ -386,7 +386,7 @@ table.contenttable { border: 10px solid #ddd; }
 }
 
 .monochrome h2 a {
-    color: #FCEFEF!important;
+    color: #F5F5F5!important;
 }
 
 /* =========================================== */
