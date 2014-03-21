@@ -165,8 +165,8 @@ ul, li {
 }
 
 .best {
-    background: #FFEDED!important;
-    border: 1px solid #FCD2D2!important;
+    background: #F8F8F8!important;
+    border: 1px solid #E9E9E9!important;
 }
 .best h6 {
     color: #C55A5A;
@@ -314,6 +314,7 @@ table.contenttable { border: 10px solid #ddd; }
 .sidebar forwardtoafriend {
     color: #B3615C!important;
     padding: 0;
+    display: inline!important;
 }
 /*
 .sidebar h1 {
@@ -358,7 +359,7 @@ table.contenttable { border: 10px solid #ddd; }
 }
 .monochrome h1 {
     font-size: 18px;
-    color: #E2E2E2!important;
+    color: #FCEFEF!important;
     text-align: center;
 }
 .monochrome p.monochrome {
@@ -385,7 +386,7 @@ table.contenttable { border: 10px solid #ddd; }
 }
 
 .monochrome h2 a {
-    color: #F0F0F0!important;
+    color: #FCEFEF!important;
 }
 
 /* =========================================== */

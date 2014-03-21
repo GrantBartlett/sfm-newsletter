@@ -13,7 +13,7 @@
         "potw" => array(
             array(
                 "title" => "Picture Of The Week",
-                "excerpt" => "Want to see more exclusive fashion snapshots? <br><br/>  Follow SFM on $instagram today",
+                "excerpt" => "Want to see more exclusive fashion snapshots? <br><br/>  Follow SFM on $instagram today.",
                 //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
                 "url" => "http://instagram.com/p/lslL_cKj0Y/",
                 "image" => "/images/pictureoftheweek.png"

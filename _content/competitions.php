@@ -2,7 +2,7 @@
     $data = array(
         "articles" => array(
             array(
-                "title" => "Superdry Giveaway",
+                "title" => "Superdry T-Shirt Giveaway",
                 "excerpt" => "We still have a few Superdry t-shirts up for grabs. Enter now for a chance to win before they’re all gone.",
                 "title_catch" => "Superdry T-Shirt Giveaway",
                 "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
@@ -13,7 +13,7 @@
                 "title" => "Make-up Kit from Flormar",
                 "excerpt" => "We’ve got an amazing selection of Flormar goodies to give away to a lucky winner.",
                 "title_catch" => "Flormar Make-up Kit",
-                "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
+                "url" => "http://saudifashionmagazine.com/sfm-plus/offers/win-a-fabulous-make-up-kit-from-flormar/",
                 "image" => "/images/comp_flormar.png",
                 "category" => "Competition"
             )
