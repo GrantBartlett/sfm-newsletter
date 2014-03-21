@@ -4,15 +4,15 @@
             array(
                 "title" => "Superdry Giveaway",
                 "excerpt" => "We still have a few Superdry t-shirts up for grabs. Enter now for a chance to win before they’re all gone! ",
-                //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
+                "title_catch" => "Superdry T-Shirt Giveaway",
                 "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
                 "image" => "/images/superdrycomp.png",
                 "category" => "Competition"
             ),
             array(
-                "title" => "Fabulous Make-up Kit from Flormar",
+                "title" => "Make-up Kit from Flormar",
                 "excerpt" => "Freshen up your look and make-up kit this Spring with a fabulous make-up kit from Flormar ",
-                //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
+                "title_catch" => "Flormar Make-up Kit",
                 "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
                 "image" => "/images/comp_flormar.png",
                 "category" => "Competition"
@@ -20,7 +20,6 @@
         )
     );
 ?>
-
 
 <table class="container">
     <tr>
@@ -55,7 +54,7 @@
 
                                     <div style="clear:both;">
                                         <?php if($v['title_catch']) :?>
-                                            <h5 style="font-size: 18px;">
+                                            <h5 style="font-size: 18px;padding: 10px 10px 5px;">
                                                 <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><?= $v['title_catch']; ?></a>
                                             </h5>
                                         <?php endif; ?>
