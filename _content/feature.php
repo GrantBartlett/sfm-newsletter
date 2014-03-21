@@ -25,8 +25,7 @@
                             <?php foreach ($data['articles'] as $k => $v) : ?>
                             <tr>
                                 <td class="weekly feature-article">
-                                    <h6><?= $v['title']; ?></h6>
-
+                                    <?php if ($v['title']) :?><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><h6><?= $v['title']; ?></h6></a><?php endif; ?>
                                     <?php if($v['image']):?>
                                     <div style="clear:both;"><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
                                         <img editable src="<?= $v['image']; ?>" style="width: 580px;" width="580" alt="<?= $v['title']; ?>"></a>

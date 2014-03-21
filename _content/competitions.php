@@ -5,15 +5,17 @@
                 "title" => "I Love Superdry",
                 "excerpt" => "We still have a few Superdry t-shirts up for grabs. Enter now for a chance to win before they’re all gone! ",
                 //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
-                "url" => "http://www.saudifashionmagazine.com/articles/reading/kim-k-spends-thousands-on-plastic-surgery/",
-                "image" => "/images/superdrycomp.png"
+                "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
+                "image" => "/images/superdrycomp.png",
+                "category" => "Competition"
             ),
             array(
                 "title" => "I Love Superdry",
                 "excerpt" => "We still have a few Superdry t-shirts up for grabs. Enter now for a chance to win before they’re all gone! ",
                 //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
-                "url" => "http://www.saudifashionmagazine.com/articles/reading/kim-k-spends-thousands-on-plastic-surgery/",
-                "image" => "/images/superdrycomp.png"
+                "url" => "http://saudifashionmagazine.com/sfm-plus/offers/i-love-superdry/",
+                "image" => "/images/superdrycomp.png",
+                "category" => "Competition"
             )
         )
     );
@@ -23,26 +25,34 @@
 <table class="container">
     <tr>
         <td>
+            <table class="row">
+                <tr>
+                    <td class="wrapper last">
+                        <table class="twelve columns">
+                            <tr>
+                                <td class="feature-article" style="margin:0;padding:0;">
+                                    <a href="http://saudifashionmagazine.com/sfm-plus/" target="_blank" title="Competitions"><h6>Competitions</h6></a>
+                                </td>
+                                <td class="expander"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
 
             <table class="row">
                 <tr>
                     <?php foreach ($data['articles'] as $k => $v) : ?>
                     <td class="wrapper <?php if($k == '1'){ echo 'last'; } ?>">
-
                         <table class="six columns">
-
                             <tr>
-                                <td class="weekly comp">
+                                <td class="weekly feature-article">
                                     <?php if($v['image']):?>
                                         <div style="clear:both;"><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
                                             <img editable src="<?= $v['image']; ?>" style="width: 400px;" width="400" alt="<?= $v['title']; ?>"></a>
                                         </div>
                                     <?php endif; ?>
-                                    <div style="clear:both;">
-                                        <h6>
-                                            <a href="<?= $v['url']; ?>" style="color: #F45147 !important;font-weight: bold;" title="<?= $v['title']; ?>" target="_blank"><?= $v['title']; ?></a>
-                                        </h6>
-                                    </div>
+
                                     <div style="clear:both;">
                                         <?php if($v['title_catch']) :?>
                                             <h5 style="font-size: 18px;">
@@ -55,9 +65,7 @@
                                 </td>
                                 <td class="expander"></td>
                             </tr>
-
                         </table>
-
                     </td>
                     <?php endforeach; ?>
                 </tr>

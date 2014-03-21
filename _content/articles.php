@@ -1,5 +1,4 @@
 <?php
-
     $data = array(
         "articles" => array(
             array(
@@ -10,7 +9,7 @@
                 "image" => "/images/lucywatson.png"
             ),
             array(
-                "title" => "Quick guide <br> to the perfect selfie",
+                "title" => "Quick guide to the perfect selfie",
                 "excerpt" => "We’re loving selfies right now and we know you are too! These top tips will make sure your selfie snaps are picture perfect every time",
                 //"title_catch" => "Perfect selfie snaps every time...",
                 "url" => "http://www.saudifashionmagazine.com/articles/reading/great-tips-on-how-to-take-an-amazing-selfie/",
@@ -32,9 +31,7 @@
                 "excerpt" => "For even more fashion satisfaction, join us on $facebook, $instagram, $pinterest &amp; $twitter. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too!",
                 "type" => "sidebar"
             )
-
         )
-
     );
 ?>
 
@@ -102,7 +99,9 @@
                                         <?php if($v['image']) :?>
                                             <div style="clear:both;">
                                                 <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
-                                                    <img editable src="<?= $v['image']; ?>" width="400" alt="<?= $v['title']; ?>">
+                                                    <center>
+                                                    <img editable src="<?= $v['image']; ?>" width="400" alt="<?= $v['title']; ?>" class="center">
+                                                    </center>
                                                 </a>
                                             </div>
                                         <?php endif; ?>

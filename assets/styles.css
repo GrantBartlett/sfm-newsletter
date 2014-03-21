@@ -161,8 +161,8 @@ ul, li {
 }
 
 .weekly {
-    background: #FFFCFA!important;
-    border: 1px solid #FAE7D9!important;
+    background: #FFF!important;
+    border: 1px solid #F0F0F0!important;
 }
 
 .best {
@@ -172,7 +172,7 @@ ul, li {
 .best h6 {
     color: #C55A5A;
     text-align: center;
-    font-size: 26px;
+    font-size: 28px;
     border-bottom: 3px dashed #F3CBCB;
     padding: 10px 0 20px;
     font-style: italic;
@@ -183,6 +183,18 @@ ul, li {
     list-style-position: inside!important;
     color: #F8A7A7;
     padding: 15px;
+}
+.best ul li a {
+    color: #CC2828;
+    font-size: 17px;
+}
+
+.best p{
+    text-align: center;
+    font-size: 18px;
+    color: #8A2323;
+    font-style: italic;
+    padding: 20px;
 }
 
 
@@ -260,11 +272,11 @@ table.contenttable { border: 10px solid #ddd; }
 
 .feature-article h6 {
     display: block;
-    padding: 30px;
+    padding: 17px;
     background: #F45147;
     text-align: center;
     color: #FFF9F9;
-    font-size: 25px;
+    font-size: 19px;
     font-style: italic;
 }
 .feature-article h6 a {
