@@ -18,6 +18,8 @@
                                     <div style="font-size: 18px;line-height: 1.7;font-style: italic;margin: 30px 20px;text-align: center;">
                                         <span>
                                             Monochrome is huge this season and this week, we’ll show you how to perfect this look. Read on for the <strong>hottest</strong> fashion <strong>news</strong> and <strong>exclusive</strong> competitions…
+                                            <br><br/>
+                                            Enjoy x
                                         </span>
                                     </div>
 

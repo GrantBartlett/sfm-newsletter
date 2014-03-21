@@ -106,9 +106,11 @@
 
                                         <?php if($v['image']) :?>
                                             <div style="clear:both;">
+                                                <center>
                                                 <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
-                                                    <img editable src="<?= $v['image']; ?>" width="158" height="207" alt="<?= $v['title']; ?>">
+                                                    <img editable src="<?= $v['image']; ?>" width="158" height="207" alt="<?= $v['title']; ?>" class="center">
                                                 </a>
+                                                </center>
                                             </div>
                                         <?php endif; ?>
 
