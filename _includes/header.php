@@ -14,7 +14,7 @@
 
 
 </head>
-<body style="background-image: url('images/body.png');background-repeat: no-repeat;">
+<body style="background-image: url('images/body.png');background-repeat: no-repeat;" vlink="#F45147">
 <table class="body">
 
 

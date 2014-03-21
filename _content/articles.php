@@ -22,12 +22,12 @@
                 "title" => "Fashion Fix Of The Week",
                 "feature" => "In The Monochrome Zone",
                 "title_catch" => "We show you how to piece together a classy yet on-trend monochrome outfit.",
-                "url" => "http://www.saudifashionmagazine.com/articles/reading/great-tips-on-how-to-take-an-amazing-selfie/",
+                "url" => "http://saudifashionmagazine.com/fashion-fix/viewing/classy-yet-sassy/",
                 "image" => "/images/monochrome.png",
                 "type" => "monochrome"
             ),
             array(
-                "title" => "Join Us",
+                "title" => "",
                 "excerpt" => "For even more fashion satisfaction, join us on $facebook, $twitter, $instagram &amp; $pinterest. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too!",
                 "type" => "sidebar"
             )
@@ -48,25 +48,32 @@
                                 <?php $count = 1;$limit = 2;$count++; ?>
                                 <tr>
                                     <td class="weekly feature-article">
-                                        <?php if ($v['title']) :?><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><h6><?= $v['title']; ?></h6></a><?php endif; ?>
-
+                                        <?php if ($v['title']) :?>
+                                        <div style="margin: 25px;">
+                                            <h5 style="font-size: 18px;text-align: center;">
+                                                <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><?= $v['title']; ?></a>
+                                            </h5>
+                                        </div>
+                                        <?php endif; ?>
                                         <?php if($v['image']):?>
                                         <div style="clear:both;">
                                             <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
                                                 <center>
-                                                    <img editable src="<?= $v['image']; ?>" width="400" alt="<?= $v['title']; ?>" class="center">
+                                                    <img src="<?= $v['image']; ?>" width="370" height="259" alt="<?= $v['title']; ?>" class="center">
                                                 </center>
                                             </a>
                                         </div>
                                         <?php endif; ?>
 
-                                        <div style="clear:both;">
+                                        <div style="clear:both;margin: 10px;">
                                             <?php if($v['title_catch']) :?>
                                             <h5 style="font-size: 18px;">
                                                <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><?= $v['title_catch']; ?></a>
                                             </h5>
                                             <?php endif; ?>
                                             <p><?= $v['excerpt'];?> </p>
+                                        </div>
+                                        <div style="clear:both;margin: 10px;text-align: right;">
                                             <p style="margin:0; text-align: right;"><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></p>
                                         </div>
                                     </td>
@@ -87,32 +94,39 @@
                                 <tr>
                                     <td class="panel <?= $v['type'];?>">
                                         <?php if ($v['title']) :?>
-                                            <h1><?= $v['title']; ?></h1>
+                                            <div style="margin: 25px;text-align: center;">
+                                                <h1><?= $v['title']; ?></h1>
+                                            </div>
                                         <?php endif; ?>
 
                                         <?php if ($v['excerpt']) :?>
                                             <p><?= $v['excerpt'];?></p>
                                         <?php endif; ?>
 
-                                        <?php if ($v['feature']) :?>
-                                            <h2><?= $v['feature'];?></h2>
-                                        <?php endif; ?>
 
                                         <?php if($v['image']) :?>
                                             <div style="clear:both;">
                                                 <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
-                                                    <center>
-                                                    <img editable src="<?= $v['image']; ?>" width="400" alt="<?= $v['title']; ?>" class="center">
-                                                    </center>
+                                                    <img editable src="<?= $v['image']; ?>" width="158" height="207" alt="<?= $v['title']; ?>">
                                                 </a>
                                             </div>
                                         <?php endif; ?>
-                                        <div style="clear:both; padding:5px 0;">
+
+                                        <?php if ($v['feature']) :?>
+                                            <h2 style="color: #F0F0F0!important;">
+                                                <a href="<?= $v['url']; ?>" title="<? $v['title'];?>" target="_blank" style="color: #F0F0F0!important;">
+                                                    <?= $v['feature'];?>
+                                                </a>
+                                            </h2>
+                                        <?php endif; ?>
+
+                                        <div style="clear:both;margin: 15px;">
                                             <p><?= $v['title_catch'];?></p>
-                                            <?php if($v['type'] != 'sidebar'): ?>
-                                            <p style="margin:0; text-align: right;"><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></p>
-                                            <?php endif; ?>
                                         </div>
+
+                                        <?php if($v['type'] != 'sidebar'): ?>
+                                            <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></p></div>
+                                        <?php endif; ?>
                                     </td>
                                     <td class="expander"></td>
                                 </tr>

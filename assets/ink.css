@@ -4,6 +4,11 @@
 
 /* Client-specific Styles & Reset */
 
+body.outlook img {
+    width: auto !important;
+    max-width: none !important;
+}
+
 #outlook a {
     padding:0;
 }
@@ -351,7 +356,7 @@ small {
 }
 
 a {
-    color: #2ba6cb;
+    color: #F45147;
     text-decoration: none;
 }
 
@@ -365,7 +370,7 @@ a:active {
 }
 
 a:visited {
-    color: #2ba6cb !important;
+    color: #F45147 !important;
 }
 
 h1 a,
@@ -374,7 +379,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: #2ba6cb;
+    color: #F45147;
 }
 
 h1 a:active,
@@ -383,7 +388,7 @@ h3 a:active,
 h4 a:active,
 h5 a:active,
 h6 a:active {
-    color: #2ba6cb !important;
+    color: #F45147 !important;
 }
 
 h1 a:visited,
@@ -392,7 +397,7 @@ h3 a:visited,
 h4 a:visited,
 h5 a:visited,
 h6 a:visited {
-    color: #2ba6cb !important;
+    color: #F45147 !important;
 }
 */
 /* Panels */
@@ -430,7 +435,7 @@ table.large-button td {
     display: block;
     width: auto !important;
     text-align: center;
-    background: #2ba6cb;
+    background: #F45147;
     border: 1px solid #2284a1;
     color: #ffffff;
     padding: 8px 0;

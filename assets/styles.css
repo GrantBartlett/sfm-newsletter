@@ -3,6 +3,10 @@
 /* CSS for the sidebar starts here */
 /* =========================================== */
 
+a {
+    color: #F45147;
+    text-decoration: none;
+}
 
 a:hover {
     color: #F45147 !important;
@@ -143,12 +147,7 @@ ul, li {
 .welcome {
     background: #ffffff;
 }
-.welcome p{
-    font-style: italic;
-    font-size: 18px;
-    padding: 20px 20px 0;
-    line-height: 1.8;
-}
+
 .welcome a {
     color: #A78675!important;
 }
@@ -182,19 +181,17 @@ ul, li {
     list-style-type: square!important;
     list-style-position: inside!important;
     color: #F8A7A7;
-    padding: 15px;
+    margin: 20px;
+    padding: 10px;
 }
 .best ul li a {
-    color: #CC2828;
     font-size: 17px;
 }
 
 .best p{
-    text-align: center;
     font-size: 18px;
     color: #8A2323;
     font-style: italic;
-    padding: 20px;
 }
 
 
@@ -271,26 +268,16 @@ table.contenttable { border: 10px solid #ddd; }
 }
 
 .feature-article h6 {
-    display: block;
-    padding: 17px;
-    background: #F45147;
     text-align: center;
-    color: #FFF9F9;
     font-size: 19px;
     font-style: italic;
+    color: #F45147;
 }
-.feature-article h6 a {
-    color: #fff!important;
-    text-decoration: underline;
-}
-.feature-article h6 a:hover{
-    color: #fff!important;
-}
+
 .feature-article p {
     font-size: 16px;
     line-height: 1.7;
     color: #524F4F;
-    padding: 10px 10px 5px
 }
 .feature-picture h6 {
     display: block;
@@ -338,19 +325,14 @@ table.contenttable { border: 10px solid #ddd; }
     text-align: center;
 }*/
 .sidebar h1 {
-    padding: 25px 0;
-    text-transform: uppercase;
     font-size: 1.25em;
     margin: 0 0 10px;
-    border-bottom: 1px solid;
     text-align: center;
 }
 .sidebar p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.7;
     font-style: italic;
-    text-align: center;
-    padding: 0 4px;
 }
 .sidebar a {
     color: #B3615C!important;
@@ -375,37 +357,35 @@ table.contenttable { border: 10px solid #ddd; }
     padding: 0;
 }
 .monochrome h1 {
-    padding: 25px 0;
-    text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 18px;
     color: #E2E2E2!important;
-    margin: 0 0 10px;
-    border-bottom: 1px solid;
     text-align: center;
-
 }
 .monochrome p.monochrome {
     font-size: 26px;
 }
 .monochrome p {
     color: #D1D1D1;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.7;
     font-style: italic;
     text-align: center;
-    padding: 15px 0;
 }
 .monochrome a {
-    color: #B6B0B0!important;
+    color: #E4E4E4!important;
 }
 
 .monochrome h2 {
-    font-size: 22px;
-    color: #D1D1D1;
+    font-size: 20px;
+    color: #F45147;
     line-height: 1.5;
     font-style: italic;
     text-align: center;
-    padding: 20px 0 20px 0;
+    margin: 15px;
+}
+
+.monochrome h2 a {
+    color: #F0F0F0!important;
 }
 
 /* =========================================== */
@@ -413,9 +393,6 @@ table.contenttable { border: 10px solid #ddd; }
 /* CSS for the non sidebar monochrome starts here  */
 /* =========================================== */
 
-.monochrome-main {
-    background: #292929;
-}
 .monochrome-main {
     font-size: 0.9em;
     background: #292929;
@@ -436,13 +413,14 @@ table.contenttable { border: 10px solid #ddd; }
     line-height: 1.7;
 }
 .monochrome-main a {
-    color: #fff!important;
+    color: #F0F0F0!important;
 }
 .monochrome-main h2 {
-    font-size: 22px;
-    color: #D1D1D1;
-    line-height: 1.5;
-    font-style: italic;
+    font-size: 17px;
+    color: #FFF;
     text-align: center;
-    padding: 20px 0 20px 0;
+    margin: 5px
+}
+.monochrome-main h6 a {
+    color: #F0F0F0!important;
 }
