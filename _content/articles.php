@@ -3,14 +3,14 @@
         "articles" => array(
             array(
                 "title" => "Lucy Watson Is Lipsy’s New VIP Girl",
-                "excerpt" => "Lipsy have announced Made In Chelsea star Lucy Watson as the new face of their VIP line. Here’s an exclusive look at the collection",
+                "excerpt" => "Lipsy have announced Made In Chelsea star Lucy Watson as the new face of their VIP line. Here’s an exclusive look at the collection.",
                 //"title_catch" => "Exclusive look at Made In Chelsea star",
                 "url" => "http://saudifashionmagazine.com/articles/reading/lucy-watson-is-lipsy-new-vip-girl/",
                 "image" => "/images/lucywatson.png"
             ),
             array(
                 "title" => "Quick guide to the perfect selfie",
-                "excerpt" => "We’re loving selfies right now and we know you are too! These top tips will make sure your selfie snaps are picture perfect every time",
+                "excerpt" => "We’re loving selfies right now and we know you are too! These top tips will make sure your selfie snaps are picture perfect every time.",
                 //"title_catch" => "Perfect selfie snaps every time...",
                 "url" => "http://www.saudifashionmagazine.com/articles/reading/great-tips-on-how-to-take-an-amazing-selfie/",
                 "image" => "/images/selfie.jpg"
@@ -28,7 +28,7 @@
             ),
             array(
                 "title" => "",
-                "excerpt" => "For even more fashion satisfaction, join us on $facebook, $twitter, $instagram &amp; $pinterest. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too!",
+                "excerpt" => "For even more fashion news, join us on $facebook, $twitter, $instagram &amp; $pinterest. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too",
                 "type" => "sidebar"
             )
         )

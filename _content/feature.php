@@ -3,7 +3,7 @@
         "articles" => array(
             array(
                 "title" => "Kim K Spends Thousands On Plastic Surgery",
-                "excerpt" => "The glamorous 33-year-old has splashed out on a $300,000 surgery spree in preparation for her upcoming wedding.",
+                "excerpt" => "The glamorous 33-year-old has splashed out hundreds of thousands on a surgery spree in preparation for her upcoming wedding.",
                 //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
                 "url" => "http://www.saudifashionmagazine.com/articles/reading/kim-k-spends-thousands-on-plastic-surgery/",
                 "image" => "/images/kimk.png"
@@ -13,7 +13,7 @@
         "potw" => array(
             array(
                 "title" => "Picture Of The Week",
-                "excerpt" => "Want to see more exclusive fashion snapshots? <br><br/>  Follow SFM on $instagram today!",
+                "excerpt" => "Want to see more exclusive fashion snapshots? <br><br/>  Follow SFM on $instagram today",
                 //"title_catch" => "$300,000 surgery spree in preparation for her upcoming wedding",
                 "url" => "http://instagram.com/p/lslL_cKj0Y/",
                 "image" => "/images/pictureoftheweek.png"
@@ -68,10 +68,10 @@
 
                             <?php foreach ($data['potw'] as $k => $v) : ?>
                                 <tr>
-                                    <td class="feature-article monochrome-main">
+                                    <td class="weekly feature-article">
                                         <div style="margin: 25px;padding: 12px;">
                                             <?php if ($v['title']) :?>
-                                                <h6 style="color: #F0F0F0!important;"><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank" style="color: #F0F0F0!important;"><?= $v['title']; ?></a></h6>
+                                                <h6><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><?= $v['title']; ?></a></h6>
                                             <?php endif; ?>
                                         </div>
                                         <?php if($v['image']):?>
@@ -90,7 +90,7 @@
                                                     <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><?= $v['title_catch']; ?></a>
                                                 </h5>
                                             <?php endif; ?>
-                                            <div style="margin: 10px;padding: 0 0 37px;"><p><?= $v['excerpt'];?></p></div>
+                                            <div style="margin: 10px;padding: 0 0 27px;"><p><?= $v['excerpt'];?></p></div>
                                         </div>
                                     </td>
                                     <td class="expander"></td>
