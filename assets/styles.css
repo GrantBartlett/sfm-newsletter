@@ -127,18 +127,6 @@ table.columns .right-text-pad {
 .panel p a{
     color:#F45147;
 }
-.box-heading {
-    background: url(/images/header-trending.png);
-    color: #FFF;
-    margin: 0 auto -94px!important;
-    position: relative;
-    top: -50px;
-    text-indent: -9999px;
-    width: 94px;
-    height: 94px;
-    padding: 0;
-    border: 0;
-}
 ul, li {
     list-style:none !important;
     padding: 0 0 0 12px;
@@ -346,11 +334,8 @@ table.contenttable { border: 10px solid #ddd; }
 /* =========================================== */
 
 .monochrome {
-    background: #292929;
-}
-.monochrome {
     font-size: 0.9em;
-    background: #292929;
+    background: #F45147;
     border: 1px solid #FFF
 }
 .monochrome forwardtoafriend {
@@ -366,14 +351,14 @@ table.contenttable { border: 10px solid #ddd; }
     font-size: 26px;
 }
 .monochrome p {
-    color: #D1D1D1;
+    color: #F8F8F8;
     font-size: 15px;
     line-height: 1.7;
     font-style: italic;
     text-align: center;
 }
 .monochrome a {
-    color: #E4E4E4!important;
+    color: #F8F8F8!important;
 }
 
 .monochrome h2 {

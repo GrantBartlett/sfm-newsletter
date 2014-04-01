@@ -2,9 +2,6 @@
 <?php include_once('_includes/variables.php');?>
 
 
-<!-- Twelve Columns :Intro to SFM -->
-<?php include_once('_content/intro.php');?>
-
 <!-- Twelve Columns :Featured Article -->
 <?php include_once('_content/feature.php');?>
 

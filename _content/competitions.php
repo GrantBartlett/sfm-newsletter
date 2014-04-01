@@ -36,7 +36,7 @@
                                         <?php if($v['title_catch']) :?>
                                             <div style="margin: 25px;">
                                                 <h5 style="font-size: 18px; text-align: center;">
-                                                    <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><?= $v['title_catch']; ?></a>
+                                                    <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
                                                 </h5>
                                             </div>
                                         <?php endif; ?>
@@ -46,8 +46,8 @@
                                     <?php endif; ?>
 
                                     <div style="clear:both;">
-                                        <div style="margin: 10px;"><p><?= $v['excerpt'];?></p></div>
-                                        <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $enternow; ?></a></p></div>
+                                        <div style="margin: 10px;"><p><multiline><?= $v['excerpt'];?></multiline></p></div>
+                                        <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><multiline><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $enternow; ?></a></p></multiline></div>
                                     </div>
                                 </td>
                                 <td class="expander"></td>

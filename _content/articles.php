@@ -51,7 +51,7 @@
                                         <?php if ($v['title']) :?>
                                         <div style="margin: 25px;">
                                             <h5 style="font-size: 18px;text-align: center;">
-                                                <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><?= $v['title']; ?></a>
+                                                <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><singleline><?= $v['title']; ?></singleline></a>
                                             </h5>
                                         </div>
                                         <?php endif; ?>
@@ -68,13 +68,13 @@
                                         <div style="clear:both;margin: 10px;">
                                             <?php if($v['title_catch']) :?>
                                             <h5 style="font-size: 18px;">
-                                               <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><?= $v['title_catch']; ?></a>
+                                               <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
                                             </h5>
                                             <?php endif; ?>
-                                            <p><?= $v['excerpt'];?> </p>
+                                            <p><multiline><?= $v['excerpt'];?></multiline></p>
                                         </div>
                                         <div style="clear:both;margin: 10px;text-align: right;">
-                                            <p style="margin:0; text-align: right;"><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></p>
+                                            <p style="margin:0; text-align: right;"><multiline><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></multiline></p>
                                         </div>
                                     </td>
                                     <td class="expander"></td>
@@ -95,12 +95,12 @@
                                     <td class="panel <?= $v['type'];?>">
                                         <?php if ($v['title']) :?>
                                             <div style="margin: 25px;text-align: center;">
-                                                <h1><?= $v['title']; ?></h1>
+                                                <h1><singleline><?= $v['title']; ?></singleline></h1>
                                             </div>
                                         <?php endif; ?>
 
                                         <?php if ($v['excerpt']) :?>
-                                            <p><?= $v['excerpt'];?></p>
+                                            <p><multiline><?= $v['excerpt'];?></multiline></p>
                                         <?php endif; ?>
 
 
@@ -117,17 +117,17 @@
                                         <?php if ($v['feature']) :?>
                                             <h2 style="color: #F5F5F5!important;">
                                                 <a href="<?= $v['url']; ?>" title="<? $v['title'];?>" target="_blank" style="color: #F5F5F5!important;">
-                                                    <?= $v['feature'];?>
+                                                    <singleline><?= $v['feature'];?></singleline>
                                                 </a>
                                             </h2>
                                         <?php endif; ?>
 
                                         <div style="clear:both;margin: 15px;">
-                                            <p><?= $v['title_catch'];?></p>
+                                            <p><multiline><?= $v['title_catch'];?></multiline></p>
                                         </div>
 
                                         <?php if($v['type'] != 'sidebar'): ?>
-                                            <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></p></div>
+                                            <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><multiline><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></multiline></p></div>
                                         <?php endif; ?>
                                     </td>
                                     <td class="expander"></td>

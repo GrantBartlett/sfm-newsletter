@@ -36,7 +36,9 @@
                             <tr>
                                 <td class="weekly feature-article">
                                     <div style="margin: 25px;">
-                                        <?php if ($v['title']) :?><h6><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><?= $v['title']; ?></a></h6><?php endif; ?>
+                                        <?php if ($v['title']) :?>
+                                            <h6><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><singleline><?= $v['title']; ?></singleline></a></h6>
+                                        <?php endif; ?>
                                     </div>
                                     <?php if($v['image']):?>
                                     <div style="clear:both;"><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
@@ -49,11 +51,11 @@
                                     <div style="clear:both;">
                                         <?php if($v['title_catch']) :?>
                                         <h5 style="font-size: 18px;">
-                                            <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><?= $v['title_catch']; ?></a>
+                                            <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
                                         </h5>
                                         <?php endif; ?>
-                                        <div style="margin: 10px;"><p><?= $v['excerpt'];?></p></div>
-                                        <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></p></div>
+                                        <div style="margin: 10px;"><p><multiline><?= $v['excerpt'];?></multiline></p></div>
+                                        <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><multiline><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></multiline></p></div>
                                     </div>
                                 </td>
                                 <td class="expander"></td>
@@ -71,7 +73,7 @@
                                     <td class="weekly feature-article">
                                         <div style="margin: 25px;padding: 12px;">
                                             <?php if ($v['title']) :?>
-                                                <h6><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><?= $v['title']; ?></a></h6>
+                                                <h6><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><singleline><?= $v['title']; ?></singleline></a></h6>
                                             <?php endif; ?>
                                         </div>
                                         <?php if($v['image']):?>
@@ -87,10 +89,11 @@
                                         <div style="clear:both;">
                                             <?php if($v['title_catch']) :?>
                                                 <h5 style="font-size: 18px;">
-                                                    <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><?= $v['title_catch']; ?></a>
+                                                    <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
                                                 </h5>
                                             <?php endif; ?>
-                                            <div style="margin: 10px;padding: 0 0 27px;"><p><?= $v['excerpt'];?></p></div>
+
+                                            <div style="margin: 10px;padding: 0 0 27px;"><multiline><p><?= $v['excerpt'];?></p></multiline></div>
                                         </div>
                                     </td>
                                     <td class="expander"></td>
@@ -104,7 +107,3 @@
         </td>
     </tr>
 </table>
-
-
-
-

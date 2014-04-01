@@ -63,6 +63,7 @@ a img {
 }
 
 p {
+    word-break: normal;
     margin: 0 0 0 10px;
 }
 
@@ -72,9 +73,8 @@ table {
 }
 
 td {
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+    word-break: normal;
+    hyphens: none;
     border-collapse: collapse !important;
 }
 
@@ -328,12 +328,8 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
     margin: 0;
     text-align: left;
     line-height: 1.3;
-    word-break: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    word-break: normal;
-}
 
 h1 {font-size: 40px;}
 h2 {font-size: 36px;}
@@ -350,7 +346,6 @@ p.lead, p.lede, p.leed {
 
 p {
     margin-bottom: 10px;
-    word-break: normal;
 }
 
 small {
@@ -360,6 +355,8 @@ small {
 a {
     color: #F45147;
     text-decoration: none;
+    word-break: normal;
+    hyphens: none;
 }
 
 /*
@@ -374,16 +371,17 @@ a:active {
 a:visited {
     color: #F45147 !important;
 }
-
+*/
 h1 a,
 h2 a,
 h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: #F45147;
+    word-break: normal;
+    hyphens: none;
 }
-
+/*
 h1 a:active,
 h2 a:active,
 h3 a:active,
