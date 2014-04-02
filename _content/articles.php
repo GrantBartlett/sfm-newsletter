@@ -19,17 +19,17 @@
 
         "aside" => array(
             array(
+                "title" => "",
+                "excerpt" => "For even more fashion news, join us on $facebook, $twitter, $instagram &amp; $pinterest. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too",
+                "type" => "sidebar"
+            ),
+            array(
                 "title" => "Fashion Fix Of The Week",
                 "feature" => "In The Monochrome Zone",
                 "title_catch" => "We show you how to piece together a classy yet on-trend monochrome outfit.",
                 "url" => "http://saudifashionmagazine.com/fashion-fix/viewing/classy-yet-sassy/",
                 "image" => "/images/monochrome.png",
                 "type" => "monochrome"
-            ),
-            array(
-                "title" => "",
-                "excerpt" => "For even more fashion news, join us on $facebook, $twitter, $instagram &amp; $pinterest. <br><br />Don’t forget to <forwardtoafriend>remind your friends</forwardtoafriend> to <a href='$sfm_join_url' title='Sign Up' target='_blank'>sign up</a> to  <a href='$sfm_plus_url' title='$sfm_plus' target='_blank'>$sfm_plus</a> too",
-                "type" => "sidebar"
             )
         )
     );
@@ -59,7 +59,7 @@
                                         <div style="clear:both;">
                                             <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
                                                 <center>
-                                                    <img src="<?= $v['image']; ?>" width="370" height="259" alt="<?= $v['title']; ?>" class="center">
+                                                    <img editable src="<?= $v['image']; ?>" width="370" height="259" alt="<?= $v['title']; ?>" class="center">
                                                 </center>
                                             </a>
                                         </div>
