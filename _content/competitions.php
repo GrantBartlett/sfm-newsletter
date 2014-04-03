@@ -36,18 +36,18 @@
                                         <?php if($v['title_catch']) :?>
                                             <div style="margin: 25px;">
                                                 <h5 style="font-size: 18px; text-align: center;">
-                                                    <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
+                                                    <a href="<?= $v['url']; ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
                                                 </h5>
                                             </div>
                                         <?php endif; ?>
-                                        <div style="clear:both;"><a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
+                                        <div style="clear:both;"><a href="<?= $v['url']; ?>" target="_blank">
                                             <img editable src="<?= $v['image']; ?>" style="width: 278px;" width="278" height="195" alt="<?= $v['title']; ?>" class="center"></a>
                                         </div>
                                     <?php endif; ?>
 
                                     <div style="clear:both;">
                                         <div style="margin: 10px;"><p><multiline><?= $v['excerpt'];?></multiline></p></div>
-                                        <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><multiline><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $enternow; ?></a></p></multiline></div>
+                                        <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><multiline><a href="<?= $v['url'] ;?>" target="_blank"><?= $enternow; ?></a></p></multiline></div>
                                     </div>
                                 </td>
                                 <td class="expander"></td>

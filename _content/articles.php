@@ -51,13 +51,13 @@
                                         <?php if ($v['title']) :?>
                                         <div style="margin: 25px;">
                                             <h5 style="font-size: 18px;text-align: center;">
-                                                <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank"><singleline><?= $v['title']; ?></singleline></a>
+                                                <a href="<?= $v['url']; ?>" target="_blank"><singleline><?= $v['title']; ?></singleline></a>
                                             </h5>
                                         </div>
                                         <?php endif; ?>
                                         <?php if($v['image']):?>
                                         <div style="clear:both;">
-                                            <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
+                                            <a href="<?= $v['url']; ?>" target="_blank">
                                                 <center>
                                                     <img editable src="<?= $v['image']; ?>" width="370" height="259" alt="<?= $v['title']; ?>" class="center">
                                                 </center>
@@ -68,13 +68,13 @@
                                         <div style="clear:both;margin: 10px;">
                                             <?php if($v['title_catch']) :?>
                                             <h5 style="font-size: 18px;">
-                                               <a href="<?= $v['url']; ?>" title="<?= $v['title_catch'] ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
+                                               <a href="<?= $v['url']; ?>"><singleline><?= $v['title_catch']; ?></singleline></a>
                                             </h5>
                                             <?php endif; ?>
                                             <p><multiline><?= $v['excerpt'];?></multiline></p>
                                         </div>
                                         <div style="clear:both;margin: 10px;text-align: right;">
-                                            <p style="margin:0; text-align: right;"><multiline><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></multiline></p>
+                                            <p style="margin:0; text-align: right;"><multiline><a href="<?= $v['url'] ;?>" target="_blank"><?= $readmore; ?></a></multiline></p>
                                         </div>
                                     </td>
                                     <td class="expander"></td>
@@ -107,8 +107,8 @@
                                         <?php if($v['image']) :?>
                                             <div style="clear:both;">
                                                 <center>
-                                                <a href="<?= $v['url']; ?>" title="<?= $v['title']; ?>" target="_blank">
-                                                    <img editable src="<?= $v['image']; ?>" width="158" height="207" alt="<?= $v['title']; ?>" class="center">
+                                                <a href="<?= $v['url']; ?>" target="_blank">
+                                                    <img editable src="<?= $v['image']; ?>" width="158" height="207" class="center">
                                                 </a>
                                                 </center>
                                             </div>
@@ -116,7 +116,7 @@
 
                                         <?php if ($v['feature']) :?>
                                             <h2 style="color: #F5F5F5!important;">
-                                                <a href="<?= $v['url']; ?>" title="<? $v['title'];?>" target="_blank" style="color: #F5F5F5!important;">
+                                                <a href="<?= $v['url']; ?>" target="_blank" style="color: #F5F5F5!important;">
                                                     <singleline><?= $v['feature'];?></singleline>
                                                 </a>
                                             </h2>
@@ -127,7 +127,7 @@
                                         </div>
 
                                         <?php if($v['type'] != 'sidebar'): ?>
-                                            <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><multiline><a href="<?= $v['url'] ;?>" title="<?= $v['title']; ?>" target="_blank"><?= $readmore; ?></a></multiline></p></div>
+                                            <div style="margin: 10px;text-align: right;"><p style="text-align: right;"><multiline><a href="<?= $v['url'] ;?>" target="_blank"><?= $readmore; ?></a></multiline></p></div>
                                         <?php endif; ?>
                                     </td>
                                     <td class="expander"></td>

@@ -11,9 +11,9 @@
                         <multiline>
                             <ul style="margin:0;padding:0;text-align: center;">
                                 <multiline>
-                                <li><a href="http://www.saudifashionmagazine.com/articles/reading/the-next-kate-moss/" title="The Next Kate Moss?" target="_blank">The Next Kate Moss?</a></li>
-                                <li><a href="http://saudifashionmagazine.com/articles/reading/the-new-fat-melting-injection/" title="The New Fat Melting Injection!" target="_blank">The New Fat Melting Injection </a></li>
-                                <li><a href="http://www.saudifashionmagazine.com/articles/reading/kendalls-high-profile-praise/ " title="Kendall Jenner’s High Profile Praise" target="_blank">Kendall Jenner’s High Profile Praise</a></li>
+                                <li><a href="http://www.saudifashionmagazine.com/articles/reading/the-next-kate-moss/" target="_blank">The Next Kate Moss?</a></li>
+                                <li><a href="http://saudifashionmagazine.com/articles/reading/the-new-fat-melting-injection/" target="_blank">The New Fat Melting Injection </a></li>
+                                <li><a href="http://www.saudifashionmagazine.com/articles/reading/kendalls-high-profile-praise/" target="_blank">Kendall Jenner’s High Profile Praise</a></li>
                                 </multiline>
                             </ul>
                         </multiline>
