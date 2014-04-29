@@ -11,10 +11,6 @@
 <!-- Eight/Four Columns :Articles and Sidebar -->
 <?php include_once('_content/articles.php');?>
 
-<!-- Eight/Four Columns :Articles and Sidebar -->
-<?php include_once('_content/bestoftherest.php');?>
-
-
 <?php include_once('_content/social.php');?>
 <?php include_once('_content/unsubscribe.php');?>
 <?php include_once('_includes/footer.php');?>
